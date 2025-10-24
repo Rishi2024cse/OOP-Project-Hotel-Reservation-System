@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BookifyApplication",
+            "request": "launch",
+            "mainClass": "com.bookify.BookifyApplication",
+            "projectName": "bookify-backend",
+            "cwd": "${workspaceFolder}/backend",
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "dev"
+            }
+        }
+    ]
+}
